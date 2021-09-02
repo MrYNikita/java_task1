@@ -17,6 +17,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
     @ResponseBody
     @RequestMapping(path = "/post/{id}", method = RequestMethod.GET)
     public String single(@PathVariable("id") Long id) {
-        return "Здесь будет страница поста №" + id;
+        return "Здесь будет страница поста №" + id ;
     }
 }
